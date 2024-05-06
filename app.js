@@ -16,7 +16,7 @@ app.use(cors());
 //db
 mongoose
   .connect(
-    "mongodb+srv://skesari:jZHG0vvRnR7lGyeL@cluster0.twcijtd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb://127.0.0.1:27017"
   )
   .then(() => {
     console.log("Connected to the database");
